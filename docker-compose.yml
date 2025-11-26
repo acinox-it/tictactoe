@@ -1,0 +1,12 @@
+services:
+  tictactoe-prod:
+    container_name: tictactoe-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - "8081:80"
+    restart: unless-stopped
+
+
+
