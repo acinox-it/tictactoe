@@ -45,7 +45,7 @@ Un jeu de morpion moderne et interactif construit avec React, Vite et Bootstrap 
 
 ```bash
 # Cloner le dépôt
-git clone <repository-url>
+git clone https://github.com/acinox-it/tictactoe.git
 cd tictactoe
 
 # Installer les dépendances
